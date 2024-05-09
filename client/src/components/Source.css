@@ -1,0 +1,17 @@
+.form-group{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    
+}
+.head{
+    
+    display: flex;
+    justify-content: center;
+}
+#label{
+    display: flex;
+    flex-direction: column;
+}
