@@ -1,0 +1,18 @@
+.form-group{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: auto 30rem;
+    
+}
+.head{
+    
+    display: flex;
+    justify-content: center;
+}
+#label{
+    display: flex;
+    flex-direction: column;
+}
