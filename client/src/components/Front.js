@@ -8,7 +8,7 @@ function Front(){
         <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">Ticket_Pridictor</a>
+          <a className="navbar-brand" href="#">PeakPro forecast</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -25,9 +25,9 @@ function Front(){
         </div>
       </nav>
 <section className="bg-green py-4 py-md-5 py-xl-8 border-top border-light">
-  <h4>Curious about potential profits for a new train route?</h4>
-  <p>Let's crunch the numbers and see what's in store from Source to Destination!</p>
-  <button className="btn btn-outline-info" onClick={() => window.location.href = '/source'}>Profit Calculator</button>
+  <h4>Maximize Efficiency, Minimize Waste:</h4>
+  <p> Revolutionize Peak Hour Supply Planning</p>
+  <button className="btn btn-outline-info" onClick={() => window.location.href = '/source'}>Peak Optimize</button>
 </section>
       <footer className="footer">
         {/* Widgets Section */}
