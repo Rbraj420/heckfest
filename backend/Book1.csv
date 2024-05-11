@@ -1,0 +1,101 @@
+Retailer,Retailer ID,Invoice Date,Region,State,City,Product,Price per Unit,Units Sold,Total Sales,Operating Profit,Operating Margin
+Foot Locker,1185732,1,Northeast,Pennsylvania,Philadelphia,clothes,$75.00,275,"$206,250","$61,875",30%
+Foot Locker,1185732,2,Northeast,New York,New York,footwear,$34.00,384,"$13,056","$6,789",52%
+West Gear,1128299,3,Northeast,Pennsylvania,Philadelphia,footwear,$35.00,450,"$157,500","$63,000",40%
+West Gear,1128299,4,Northeast,Pennsylvania,Philadelphia,footwear,$32.00,122,"$3,904","$1,991",51%
+West Gear,1128299,5,Northeast,Pennsylvania,Philadelphia,footwear,$27.00,158,"$4,266","$1,792",42%
+West Gear,1128299,6,Northeast,Pennsylvania,Philadelphia,footwear,$45.00,450,"$202,500","$50,625",25%
+Foot Locker,1185732,7,Northeast,New York,New York,footwear,$32.00,350,"$11,200","$4,144",37%
+West Gear,1128299,8,Northeast,Pennsylvania,Philadelphia,footwear,$35.00,135,"$4,725","$1,465",31%
+Foot Locker,1185732,9,Northeast,New York,New York,footwear,$45.00,850,"$382,500","$133,875",35%
+Foot Locker,1185732,10,Northeast,New York,New York,footwear,$41.00,247,"$10,127","$4,658",46%
+Foot Locker,1185732,11,Northeast,New York,New York,clothes,$55.00,234,"$12,870","$5,148",40%
+West Gear,1128299,12,Northeast,Pennsylvania,Philadelphia,footwear,$34.00,90,"$3,060","$1,255",41%
+Foot Locker,1185732,13,Northeast,New York,New York,clothes,$50.00,"1,000","$500,000","$125,000",25%
+West Gear,1128299,14,West,Nevada,Las Vegas,clothes,$50.00,250,"$125,000","$68,750",55%
+Foot Locker,1185732,15,Northeast,New York,New York,clothes,$46.00,260,"$11,960","$4,425",37%
+West Gear,1128299,16,West,Nevada,Las Vegas,clothes,$37.00,80,"$2,960","$1,687",57%
+West Gear,1128299,17,West,Nevada,Las Vegas,clothes,$41.00,128,"$5,248","$1,574",30%
+Foot Locker,1185732,18,Northeast,New York,New York,footwear,$33.00,388,"$12,804","$6,658",52%
+West Gear,1128299,19,West,Nevada,Las Vegas,clothes,$36.00,166,"$5,976","$1,434",24%
+Foot Locker,1185732,20,Northeast,New York,New York,footwear,$50.00,"1,200","$600,000","$300,000",50%
+Foot Locker,1185732,21,Northeast,New York,New York,footwear,$47.00,336,"$15,792","$9,633",61%
+Foot Locker,1185732,22,Northeast,Pennsylvania,Philadelphia,clothes,$68.00,83,"$5,644","$2,427",43%
+Foot Locker,1185732,23,Northeast,Pennsylvania,Philadelphia,clothes,$53.00,83,"$4,399","$1,408",32%
+Foot Locker,1185732,24,Northeast,New York,New York,footwear,$50.00,"1,000","$500,000","$150,000",30%
+Foot Locker,1185732,25,Northeast,New York,New York,footwear,$47.00,260,"$12,220","$5,132",42%
+Foot Locker,1185732,26,Northeast,New York,New York,footwear,$36.00,320,"$11,520","$4,032",35%
+Foot Locker,1185732,27,Northeast,New York,New York,footwear,$40.00,"1,000","$400,000","$140,000",35%
+Foot Locker,1185732,28,Northeast,New York,New York,footwear,$36.00,250,"$9,000","$4,140",46%
+West Gear,1128299,1,Northeast,Pennsylvania,Philadelphia,footwear,$44.00,117,"$5,148","$1,905",37%
+West Gear,1128299,2,Northeast,Pennsylvania,Philadelphia,footwear,$45.00,450,"$202,500","$81,000",40%
+West Gear,1128299,3,Northeast,Pennsylvania,Philadelphia,footwear,$41.00,117,"$4,797","$2,590",54%
+Foot Locker,1185732,4,Northeast,New York,New York,footwear,$36.00,281,"$10,116","$3,743",37%
+West Gear,1128299,5,Northeast,Pennsylvania,Philadelphia,footwear,$36.00,140,"$5,040","$2,369",47%
+Foot Locker,1185732,6,Northeast,New York,New York,clothes,$60.00,900,"$540,000","$162,000",30%
+West Gear,1128299,7,Northeast,Pennsylvania,Philadelphia,footwear,$45.00,300,"$135,000","$47,250",35%
+West Gear,1128299,8,Northeast,Pennsylvania,Philadelphia,footwear,$43.00,87,"$3,741","$1,871",50%
+Foot Locker,1185732,9,Northeast,New York,New York,clothes,$43.00,306,"$13,158","$4,868",37%
+West Gear,1128299,10,West,Nevada,Las Vegas,clothes,$47.00,70,"$3,290","$2,139",65%
+Foot Locker,1185732,11,Northeast,New York,New York,clothes,$38.00,330,"$12,540","$4,013",32%
+Foot Locker,1185732,12,Northeast,New York,New York,footwear,$50.00,"1,250","$625,000","$312,500",50%
+West Gear,1128299,13,West,Nevada,Las Vegas,clothes,$45.00,475,"$213,750","$42,750",20%
+Foot Locker,1185732,14,Northeast,New York,New York,footwear,$46.00,313,"$14,398","$8,927",62%
+Foot Locker,1185732,15,Northeast,New York,New York,footwear,$50.00,900,"$450,000","$135,000",30%
+West Gear,1128299,16,West,Nevada,Las Vegas,footwear,$35.00,525,"$183,750","$73,500",40%
+Foot Locker,1185732,17,Northeast,New York,New York,footwear,$46.00,261,"$12,006","$5,283",44%
+West Gear,1128299,18,West,Nevada,Las Vegas,footwear,$34.00,158,"$5,372","$2,686",50%
+Foot Locker,1185732,19,Northeast,New York,New York,footwear,$39.00,315,"$12,285","$4,054",33%
+West Gear,1128299,20,West,Nevada,Las Vegas,footwear,$27.00,173,"$4,671","$2,009",43%
+West Gear,1128299,21,West,Nevada,Las Vegas,footwear,$45.00,425,"$191,250","$47,813",25%
+West Gear,1128299,22,West,Nevada,Las Vegas,footwear,$43.00,128,"$5,504","$2,202",40%
+West Gear,1128299,23,West,Nevada,Las Vegas,footwear,$35.00,145,"$5,075","$1,573",31%
+West Gear,1128299,24,West,Nevada,Las Vegas,footwear,$45.00,425,"$191,250","$76,500",40%
+West Gear,1128299,25,West,Nevada,Las Vegas,footwear,$41.00,119,"$4,879","$2,586",53%
+West Gear,1128299,26,West,Nevada,Las Vegas,footwear,$31.00,140,"$4,340","$1,866",43%
+West Gear,1128299,27,West,Nevada,Las Vegas,footwear,$45.00,275,"$123,750","$43,313",35%
+West Gear,1128299,28,West,Nevada,Las Vegas,footwear,$44.00,74,"$3,256","$1,498",46%
+West Gear,1128299,1,West,Nevada,Las Vegas,footwear,$30.00,85,"$2,550","$1,046",41%
+West Gear,1128299,2,West,Nevada,Las Vegas,clothes,$50.00,200,"$100,000","$55,000",55%
+West Gear,1128299,3,West,Nevada,Las Vegas,clothes,$46.00,52,"$2,392","$1,674",70%
+West Gear,1128299,4,West,Nevada,Las Vegas,clothes,$37.00,70,"$2,590","$1,580",61%
+West Gear,1128299,5,West,Nevada,Las Vegas,clothes,$45.00,400,"$180,000","$36,000",20%
+West Gear,1128299,6,West,Nevada,Las Vegas,clothes,$41.00,116,"$4,756","$1,617",34%
+West Gear,1128299,7,West,Nevada,Las Vegas,clothes,$31.00,140,"$4,340",$998,23%
+West Gear,1128299,8,West,Nevada,Las Vegas,footwear,$45.00,550,"$247,500","$99,000",40%
+West Gear,1128299,9,West,Nevada,Las Vegas,footwear,$43.00,160,"$6,880","$3,784",55%
+West Gear,1128299,10,West,Nevada,Las Vegas,footwear,$31.00,182,"$5,642","$2,539",45%
+West Gear,1128299,11,West,Nevada,Las Vegas,footwear,$55.00,400,"$220,000","$55,000",25%
+West Gear,1128299,12,West,Nevada,Las Vegas,footwear,$50.00,120,"$6,000","$2,400",40%
+West Gear,1128299,13,West,Nevada,Las Vegas,footwear,$42.00,124,"$5,208","$1,667",32%
+West Gear,1128299,14,West,Nevada,Las Vegas,footwear,$55.00,400,"$220,000","$88,000",40%
+West Gear,1128299,15,West,Nevada,Las Vegas,footwear,$52.00,104,"$5,408","$2,866",53%
+West Gear,1128299,16,West,Nevada,Las Vegas,footwear,$43.00,128,"$5,504","$2,587",47%
+West Gear,1128299,17,West,Nevada,Las Vegas,footwear,$55.00,300,"$165,000","$57,750",35%
+West Gear,1128299,18,West,Nevada,Las Vegas,footwear,$50.00,84,"$4,200","$1,974",47%
+West Gear,1128299,19,West,Nevada,Las Vegas,footwear,$41.00,93,"$3,813","$1,563",41%
+West Gear,1128299,20,West,Nevada,Las Vegas,clothes,$60.00,175,"$105,000","$57,750",55%
+West Gear,1128299,21,West,Nevada,Las Vegas,clothes,$55.00,47,"$2,585","$1,810",70%
+West Gear,1128299,22,West,Nevada,Las Vegas,clothes,$44.00,60,"$2,640","$1,637",62%
+West Gear,1128299,23,West,Nevada,Las Vegas,clothes,$55.00,375,"$206,250","$41,250",20%
+West Gear,1128299,24,West,Nevada,Las Vegas,clothes,$54.00,94,"$5,076","$1,726",34%
+West Gear,1128299,25,West,Nevada,Las Vegas,clothes,$39.00,124,"$4,836","$1,257",26%
+West Gear,1128299,26,West,Nevada,Las Vegas,footwear,$60.00,550,"$330,000","$132,000",40%
+West Gear,1128299,27,West,Nevada,Las Vegas,footwear,$58.00,143,"$8,294","$4,230",51%
+West Gear,1128299,28,West,Nevada,Las Vegas,footwear,$41.00,171,"$7,011","$2,945",42%
+Foot Locker,1185732,1,Northeast,New York,New York,footwear,$40.00,950,"$380,000","$133,000",35%
+West Gear,1128299,2,West,Nevada,Las Vegas,footwear,$65.00,350,"$227,500","$56,875",25%
+Foot Locker,1185732,3,Northeast,New York,New York,footwear,$36.00,276,"$9,936","$4,670",47%
+West Gear,1128299,4,West,Nevada,Las Vegas,footwear,$62.00,102,"$6,324","$2,403",38%
+Foot Locker,1185732,5,Northeast,New York,New York,footwear,$32.00,323,"$10,336","$3,928",38%
+West Gear,1128299,6,West,Nevada,Las Vegas,footwear,$46.00,116,"$5,336","$1,547",29%
+Foot Locker,1185732,7,Northeast,New York,New York,footwear,$45.00,825,"$371,250","$129,938",35%
+West Gear,1128299,8,West,Nevada,Las Vegas,footwear,$65.00,400,"$260,000","$104,000",40%
+Foot Locker,1185732,9,Northeast,New York,New York,footwear,$44.00,206,"$9,064","$4,441",49%
+West Gear,1128299,10,West,Nevada,Las Vegas,footwear,$61.00,120,"$7,320","$3,880",53%
+Foot Locker,1185732,11,Northeast,New York,New York,footwear,$32.00,248,"$7,936","$3,016",38%
+West Gear,1128299,12,West,Nevada,Las Vegas,footwear,$47.00,120,"$5,640","$2,538",45%
+Foot Locker,1185732,13,Northeast,New York,New York,clothes,$60.00,900,"$540,000","$162,000",30%
+West Gear,1128299,14,West,Nevada,Las Vegas,footwear,$60.00,300,"$180,000","$63,000",35%
+Foot Locker,1185732,15,Northeast,New York,New York,clothes,$58.00,243,"$14,094","$6,060",43%
+West Gear,1128299,16,West,Nevada,Las Vegas,footwear,$59.00,75,"$4,425","$2,036",46%

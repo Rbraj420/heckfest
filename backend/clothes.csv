@@ -12,13 +12,13 @@ Invoice Date,Retailer ID,Retailer,Region,Product,Price Per Unit,Unit Sold,Total 
 11,1128299,West Gear,Northeast,clothes,$35.06 ,135,"$4,733.10 ","$1,465.00 ",30.95223004
 12,1128299,West Gear,Northeast,clothes,$35.07 ,850,"$29,809.50 ","$13,875.00 ",46.54556433
 13,1128299,West Gear,Northeast,clothes,$35.09 ,247,"$8,667.23 ","$4,658.00 ",53.74266057
-14,1128299,West Gear,Northeast,clothes,$50.00 ,"1,000","$50,000.00 ","$12,500 ",25
+14,1128299,West Gear,Northeast,clothes,$50.00 ,"1000","$50,000.00 ","$12,500 ",25
 15,1128299,West Gear,Northeast,clothes,$65.00 ,200,"$13,000.00 ","$7,150 ",55
 16,1128299,West Gear,Northeast,clothes,$48.00 ,290,"$13,920.00 ","$5,290 ",38.00287356
 17,1128299,West Gear,Northeast,clothes,$35.15 ,234,"$8,225.10 ","$5,148.00 ",62.58890469
 18,1128299,West Gear,Northeast,clothes,$47.00 ,62,"$2,914.00 ","$1,778 ",61.01578586
 19,1128299,West Gear,Northeast,clothes,$35.18 ,90,"$3,166.20 ","$1,255.00 ",39.63742025
-20,1128299,West Gear,Northeast,clothes,$35.19 ,"1,000","$35,190.00 ","$12,500.00 ",35.52145496
+20,1128299,West Gear,Northeast,clothes,$35.19 ,"1000","$35,190.00 ","$12,500.00 ",35.52145496
 21,1128299,West Gear,Northeast,clothes,$35.20 ,250,"$8,800.00 ","$6,875.00 ",78.125
 22,1128299,West Gear,Northeast,clothes,$35.21 ,260,"$9,154.60 ","$4,425.00 ",48.33635549
 23,1128299,West Gear,Northeast,clothes,$35.17 ,80,"$2,813.60 ","$1,687.00 ",59.95877168
