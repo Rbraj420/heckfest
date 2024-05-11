@@ -16,13 +16,13 @@ from sklearn.metrics import mean_squared_error, mean_absolute_percentage_error, 
 import statsmodels.api as sm
 
 # Load the data
-data = pd.read_csv("clothes.csv")
+data = pd.read_csv("C:\\Users\\bhupa\\hackfest-ticket\\heckfest\\backend\\clothes.csv")
 
 # Sort the data by "Profit %" column in ascending order
 highest_profit = data.sort_values(by="Profit %", ascending=False)
 
 # Convert "Invoice Date" column to datetime format
-highest_profit["Invoice Date"] = pd.to_datetime(highest_profit["Invoice Date"])
+highest_profit["Invoice Date"] = (highest_profit["Invoice Date"])
 print(highest_profit)
 
 # Get the count of units sold for each invoice date
