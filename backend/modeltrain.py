@@ -1,3 +1,4 @@
+
 import numpy as np
 import pandas as pd
 
@@ -20,18 +21,21 @@ data = pd.read_csv("C:\\Users\\bhupa\\hackfest-ticket\\heckfest\\backend\\clothe
 
 # Sort the data by "Profit %" column in ascending order
 highest_profit = data.sort_values(by="Profit %", ascending=False)
+data = data.sort_values(by="Unit Sold", ascending=True)
 
-# Convert "Invoice Date" column to datetime format
-highest_profit["Invoice Date"] = (highest_profit["Invoice Date"])
-print(highest_profit)
+# Extract sorted data for plotting
+x = data['Invoice Date']
+y = pd.to_numeric(data['Unit Sold'], errors='coerce')
 
-# Get the count of units sold for each invoice date
-# adidas_counts = highest_profit["Invoice Date"].value_counts()
-# adidas_sell_data= highest_profit["Unit Sold"].value_counts()
+# Sort y values
+y_sorted = y.sort_values()
 
-# # Plot the bar chart
-# figure = px.bar(x=adidas_counts.index, y=adidas_sell_data., title="Number of units sold per invoice date")
-# figure.show()
+# Bar graph
+plt.xlabel('Invoice Date', fontsize=18)
+plt.ylabel('Unit Sold', fontsize=16)
+plt.bar(x, y_sorted)  
+plt.show()
+
 
 # #now to show the relationship bw sell price and invoice date
 # figure=  px.scatter(data_frame=data,x= "Invoice Date",y="No. of Items sold", trendline="ols",title="Relationship bw Occasion and Sales")
@@ -40,14 +44,14 @@ print(highest_profit)
 
 
 
-dataframe= pd.DataFrame(data)
-X= dataframe[["Invoice Date"]]
-y= dataframe[["Unit Sold"]]
-# print(dataframe)
-plt.plot(dataframe['Unit Sold'],dataframe['Invoice Date'])
-plt.ylabel("Invoice Date")
-plt.xlabel("Unit sold")
-plt.show()
+# dataframe= pd.DataFrame(data)
+# X= dataframe[["Invoice Date"]]
+# y= dataframe[["Unit Sold"]]
+# # print(dataframe)
+# plt.plot(dataframe['Unit Sold'],dataframe['Invoice Date'])
+# plt.ylabel("Invoice Date")
+# plt.xlabel("Unit sold")
+# plt.show()
 
 # X_train,X_test,y_train,y_test= train_test_split(X,y,test_size=0.2,random_state=42)
 
@@ -70,7 +74,6 @@ plt.show()
 # print(mse)
 # mape= mean_absolute_percentage_error(y_pred,y_test)
 # print("Mean absolute Percentage error:",mape)
-
 
 
 
