@@ -30,11 +30,7 @@ y = pd.to_numeric(data['Unit Sold'], errors='coerce')
 # Sort y values
 y_sorted = y.sort_values()
 
-# Bar graph
-plt.xlabel('Invoice Date', fontsize=18)
-plt.ylabel('Unit Sold', fontsize=16)
-plt.bar(x, y_sorted)  
-# plt.show()
+
 
 
 # now to show the relationship bw sell price and invoice date
@@ -59,7 +55,11 @@ y_pred= model.predict(X_test)
 # report= classification_report(y_test,y_pred)
 
 # #user input 
-user_date= int(input("Enter the date on which you want. "))
+while True:
+    user_date = int(input("Enter the date on which you want (1-31): "))
+    if user_date > 31 or user_date < 1: 
+        print("Error: Invalid input. Please enter a date between 1 and 31.")
+    else: break
 # Convert the input date to the same format as the input features (e.g., a DataFrame)
 user_date_df = pd.DataFrame({'Invoice Date': [user_date]})
 
@@ -79,4 +79,8 @@ print("Mean Squared Error ",mse)
 mape= mean_absolute_percentage_error(y_pred,y_test)
 print("Mean absolute Percentage error:",mape)
 
-
+# Bar graph
+plt.xlabel('Invoice Date', fontsize=18)
+plt.ylabel('Unit Sold', fontsize=16)
+plt.bar(x, y_sorted)  
+plt.show()
