@@ -23,6 +23,7 @@ highest_profit = data.sort_values(by="Profit %", ascending=False)
 
 # Convert "Invoice Date" column to datetime format
 highest_profit["Invoice Date"] = pd.to_datetime(highest_profit["Invoice Date"])
+print(highest_profit)
 
 # Get the count of units sold for each invoice date
 # adidas_counts = highest_profit["Invoice Date"].value_counts()
@@ -62,6 +63,16 @@ plt.show()
 # user_date= int(input("Enter the date on which you want. "))
 # prediction= model.predict(user_date)
 # print("Predicted Sells are :",prediction)
+
+
+# codes for errors
+# mse= mean_squared_error(y_test, y_pred)
+# print(mse)
+# mape= mean_absolute_percentage_error(y_pred,y_test)
+# print("Mean absolute Percentage error:",mape)
+
+
+
 
 
 
