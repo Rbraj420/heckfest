@@ -1,33 +1,36 @@
 import numpy as np
 import pandas as pd
+
+# Importing visualization libraries
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
+import plotly.graph_objects as go
+
+# Importing machine learning libraries
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_squared_error
-from sklearn.metrics import mean_absolute_percentage_error
-from sklearn.metrics import accuracy_score,classification_report
-import plotly.graph_objects as go
+from sklearn.metrics import mean_squared_error, mean_absolute_percentage_error, accuracy_score, classification_report
+
+# Importing statistical libraries
 import statsmodels.api as sm
 
-data = pd.read_csv("apple_products.csv")
-print(data.isnull().sum())
-print(data.head(10))
+# Load the data
+data = pd.read_csv("clothes.csv")
 
-# to analyse the data
-# highest_profit= data.sort_values(by=["Profit %"],ascending=False)
+# Sort the data by "Profit %" column in ascending order
+highest_profit = data.sort_values(by="Profit %", ascending=False)
 
-# # if you want to see what are the occasion dates on which max products are sold
-# print(highest_profit["Product"])
-# # now labeling the data(Plotting in the graph)
-# adidas = highest_profit["Product"].value_counts()
-# label= adidas.index
-# counts= highest_profit["Invoice Date"]
-# figure= px.bar(highest_profit,x= adidas,y=counts,title="Number of units sold")
-# #to show graph
+# Convert "Invoice Date" column to datetime format
+highest_profit["Invoice Date"] = pd.to_datetime(highest_profit["Invoice Date"])
+
+# Get the count of units sold for each invoice date
+# adidas_counts = highest_profit["Invoice Date"].value_counts()
+# adidas_sell_data= highest_profit["Unit Sold"].value_counts()
+
+# # Plot the bar chart
+# figure = px.bar(x=adidas_counts.index, y=adidas_sell_data., title="Number of units sold per invoice date")
 # figure.show()
-
 
 # #now to show the relationship bw sell price and invoice date
 # figure=  px.scatter(data_frame=data,x= "Invoice Date",y="No. of Items sold", trendline="ols",title="Relationship bw Occasion and Sales")
@@ -36,9 +39,14 @@ print(data.head(10))
 
 
 
-# dataframe= pd.DataFrame(data)
-# X= dataframe[["Invoice Date"]]
-# y= dataframe[["Unit Sold"]]
+dataframe= pd.DataFrame(data)
+X= dataframe[["Invoice Date"]]
+y= dataframe[["Unit Sold"]]
+# print(dataframe)
+plt.plot(dataframe['Unit Sold'],dataframe['Invoice Date'])
+plt.ylabel("Invoice Date")
+plt.xlabel("Unit sold")
+plt.show()
 
 # X_train,X_test,y_train,y_test= train_test_split(X,y,test_size=0.2,random_state=42)
 
@@ -56,8 +64,4 @@ print(data.head(10))
 # print("Predicted Sells are :",prediction)
 
 
-
-
-
- 
 
