@@ -46,7 +46,8 @@ while True:
 
 user_date_df = pd.DataFrame({'Invoice Date': [user_date]})
 prediction = model.predict(user_date_df)
-print("Predicted Sells are:", prediction[0])  
+predicted_value= prediction[0]
+print("Predicted Sells are:", predicted_value)  
 # codes for errors
 mse= mean_squared_error(y_test, y_pred)
 print("Mean Squared Error ",mse)
@@ -57,8 +58,4 @@ print("Mean absolute Percentage error:",mape)
 plt.xlabel('Invoice Date', fontsize=18)
 plt.ylabel('Unit Sold', fontsize=16)
 plt.bar(x, y_sorted)  
-<<<<<<< HEAD
 plt.show()
-=======
-plt.show()
->>>>>>> 270aae8881f5aca774dc10cd609f49ef119bc3f2

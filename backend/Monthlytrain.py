@@ -43,7 +43,8 @@ if decide==0:
 
     user_month_df = pd.DataFrame({'Invoice Month': [user_month]})
     prediction = model.predict(user_month_df)
-    print("Predicted Sells are:", prediction[0])  
+    predicted_value= prediction[0]
+    print("Predicted Sells are:", predicted_value)  
 
     # Calculation of the error
     mse = mean_squared_error(y_test, y_pred)
