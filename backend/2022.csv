@@ -1,0 +1,12 @@
+Retailer,Retailer ID,Invoice Year,Invoice Month,Region,State,City,Product,Price per Unit,Units Sold,Total Sales,Operating Profit,Operating Margin
+Adidas,1185732,2010,1,Northeast,Pennsylvania,Philadelphia,clothes,$75.00,275,"$206,250","$61,875",30%
+Adidas,1185732,2010,2,Northeast,New York,New York,footwear,$34.00,384,"$13,056","$6,789",52%
+Adidas,1128299,2010,3,Northeast,Pennsylvania,Philadelphia,footwear,$35.00,450,"$157,500","$63,000",40%
+Adidas,1128299,2010,4,Northeast,Pennsylvania,Philadelphia,footwear,$32.00,122,"$3,904","$1,991",51%
+Adidas,1128299,2010,5,Northeast,Pennsylvania,Philadelphia,footwear,$27.00,158,"$4,266","$1,792",42%
+Adidas,1128299,2010,6,Northeast,Pennsylvania,Philadelphia,footwear,$45.00,450,"$202,500","$50,625",25%
+Adidas,1185732,2010,7,Northeast,New York,New York,footwear,$32.00,350,"$11,200","$4,144",37%
+Adidas,1128299,2010,8,Northeast,Pennsylvania,Philadelphia,footwear,$35.00,135,"$4,725","$1,465",31%
+Adidas,1185732,2010,9,Northeast,New York,New York,footwear,$45.00,850,"$382,500","$133,875",35%
+Adidas,1185732,2010,10,Northeast,New York,New York,footwear,$41.00,247,"$10,127","$4,658",46%
+Adidas,1185732,2010,11,Northeast,New York,New York,clothes,$55.00,234,"$12,870","$5,148",40%

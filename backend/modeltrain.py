@@ -1,14 +1,9 @@
-
 import numpy as np
 import pandas as pd
-
-# Importing visualization libraries
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 import plotly.graph_objects as go
-
-# Importing machine learning libraries
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, mean_absolute_percentage_error, accuracy_score, classification_report
@@ -30,26 +25,14 @@ y = pd.to_numeric(data['Unit Sold'], errors='coerce')
 # Sort y values
 y_sorted = y.sort_values()
 
-
-
-
 # now to show the relationship bw sell price and invoice date
 y_strings = y_sorted.astype(str)
-
-
-
-
-
 dataframe= pd.DataFrame(data)
 X = data[['Invoice Date']]  
 y = data['Unit Sold']  
-
-
 X_train,X_test,y_train,y_test= train_test_split(X,y,test_size=0.2,random_state=42)
-
 model= LinearRegression()
 model.fit(X_train,y_train)
-
 y_pred= model.predict(X_test)
 # accuracy= accuracy_score(y_test,y_pred)
 # report= classification_report(y_test,y_pred)
@@ -60,20 +43,11 @@ while True:
     if user_date > 31 or user_date < 1: 
         print("Error: Invalid input. Please enter a date between 1 and 31.")
     else: break
-# Convert the input date to the same format as the input features (e.g., a DataFrame)
+
 user_date_df = pd.DataFrame({'Invoice Date': [user_date]})
-
-# Make prediction for the input date
 prediction = model.predict(user_date_df)
-
-# Print the predicted number of units sold
-print("Predicted Sells are:", prediction[0])  # Assuming prediction is an array
-
-
-
-
+print("Predicted Sells are:", prediction[0])  
 # codes for errors
-
 mse= mean_squared_error(y_test, y_pred)
 print("Mean Squared Error ",mse)
 mape= mean_absolute_percentage_error(y_pred,y_test)
