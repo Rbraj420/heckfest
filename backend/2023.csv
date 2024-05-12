@@ -1,0 +1,13 @@
+Retailer,Retailer ID,Invoice Year,Invoice Month,Region,Product,Price per Unit,Units Sold,Total Sales,Operating Profit,Operating Margin
+Wear Gear,1128299,2011,1,Northeast,Adidas,$34.00,90,"$3,060","$1,255",41%
+Wear Gear,1185732,2011,2,Northeast,Adidas,$50.00,"350","$500,000","$125,000",25%
+Wear Gear,1128299,2011,3,Northeast,Adidas,$50.00,250,"$125,000","$68,750",55%
+Wear Gear,1185732,2011,4,Northeast,Adidas,$46.00,260,"$11,960","$4,425",37%
+Wear Gear,1128299,2011,5,Northeast,Adidas,$37.00,80,"$2,960","$1,687",57%
+Wear Gear,1128299,2011,6,Northeast,Adidas,$41.00,128,"$5,248","$1,574",30%
+Wear Gear,1185732,2011,7,Northeast,Adidas,$33.00,388,"$12,804","$6,658",52%
+Wear Gear,1128299,2011,8,Northeast,Adidas,$36.00,166,"$5,976","$1,434",24%
+Wear Gear,1185732,2011,9,Northeast,Adidas,$50.00,"1200","$600,000","$300,000",50%
+Wear Gear,1185732,2011,10,Northeast,Adidas,$47.00,336,"$15,792","$9,633",61%
+Wear Gear,1185732,2011,11,Northeast,Adidas,$68.00,83,"$5,644","$2,427",43%
+Wear Gear,1185732,2011,12,Northeast,Adidas,$53.00,83,"$4,399","$1,408",32%

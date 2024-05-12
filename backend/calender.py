@@ -7,3 +7,6 @@ mm= 9
 var= datetime.now().weekday()
 cal= ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
 print(cal[(var+1)%7])
+
+
+

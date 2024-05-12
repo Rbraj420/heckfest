@@ -1,0 +1,13 @@
+Retailer,Retailer ID,Invoice Year,Invoice Month,Region,Product,Price per Unit,Units Sold,Total Sales,Operating Profit,Operating Margin
+Wear Gear,1128299,2017,1,Northeast,Adidas,$41.00,171,"$7,011","$2,945",42%
+Wear Gear,1185732,2017,2,Northeast,Adidas,$40.00,950,"$380,000","$133,000",35%
+Wear Gear,1128299,2017,3,Northeast,Adidas,$65.00,350,"$227,500","$56,875",25%
+Wear Gear,1185732,2017,4,Northeast,Adidas,$36.00,276,"$9,936","$4,670",47%
+Wear Gear,1185732,2017,5,Northeast,Adidas,$62.00,102,"$6,324","$2,403",38%
+Wear Gear,1128299,2017,6,Northeast,Adidas,$32.00,323,"$10,336","$3,928",38%
+Wear Gear,1185732,2017,7,Northeast,Adidas,$46.00,116,"$5,336","$1,547",29%
+Wear Gear,1185732,2017,8,Northeast,Adidas,$45.00,825,"$371,250","$129,938",35%
+Wear Gear,1128299,2017,9,Northeast,Adidas,$65.00,400,"$260,000","$104,000",40%
+Wear Gear,1185732,2017,10,Northeast,Adidas,$44.00,206,"$9,064","$4,441",49%
+Wear Gear,1128299,2017,11,Northeast,Adidas,$61.00,120,"$7,320","$3,880",53%
+Wear Gear,1185732,2017,12,Northeast,Adidas,$32.00,248,"$7,936","$3,016",38%

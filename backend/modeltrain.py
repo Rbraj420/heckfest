@@ -57,4 +57,8 @@ print("Mean absolute Percentage error:",mape)
 plt.xlabel('Invoice Date', fontsize=18)
 plt.ylabel('Unit Sold', fontsize=16)
 plt.bar(x, y_sorted)  
+<<<<<<< HEAD
 plt.show()
+=======
+plt.show()
+>>>>>>> 270aae8881f5aca774dc10cd609f49ef119bc3f2
